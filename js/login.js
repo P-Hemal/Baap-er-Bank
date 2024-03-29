@@ -5,3 +5,4 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const password = passwordField.value;
     
 })
+
