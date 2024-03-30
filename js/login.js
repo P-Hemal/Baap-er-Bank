@@ -9,6 +9,19 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     else{
         alert('You can not get enter into the next page')
     }
+
     
+    
+})
+
+document.getElementById('user-password').addEventListener('keyup', function(event){
+    const text = event.target.value;
+    const submitButton = document.getElementById('btn-submit');
+    if(text === 'alhamdulillah'){
+        submitButton.removeAttribute('disabled')
+    }
+    else{
+        submitButton.setAttribute('disabled', true)
+    }
 })
 
